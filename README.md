@@ -1,4 +1,4 @@
-# Cozy Nginx - Reverse proxy
+# Cozy Nginx docker images - Reverse proxy
 
 This is a Nginx reverse proxy for Cozy Cloud. This docker image is designed to work out of the box
 with other spiroid/cozy-* images. See the run with docker-compose section below.
@@ -74,9 +74,11 @@ nginx:
 
 Then, in the directory where you put the configuration file :
 
- * docker-compose up
- * init the cozy stack if you haven't already
- * visit https://localhost/
+ * run ```docker-compose up```
+ * [init the cozy stack](https://github.com/spiroid/cozy-controller#init-the-cozy-stack) if you haven't already
+ * open your browser and visit https://localhost/
+
+Enjoy :)
 
 ## Related images
 

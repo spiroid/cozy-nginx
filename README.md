@@ -21,7 +21,7 @@ $ docker pull spiroid/cozy-nginx
 ```
 $ git clone git@github.com:spiroid/cozy-nginx.git
 $ cd cozy-nginx
-$ doker build -t spiroid/cozy-nginx .
+$ docker build -t spiroid/cozy-nginx .
 ```
 
 
